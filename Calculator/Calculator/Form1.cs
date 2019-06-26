@@ -100,7 +100,10 @@ namespace Calculator
                     b = a + float.Parse(textBox1.Text);
                     textBox1.Text = b.ToString();
                     break;
-
+                case 2:
+                    b = a - float.Parse(textBox1.Text);
+                    textBox1.Text = b.ToString();
+                    break;
                 default:
                     break;
             }
