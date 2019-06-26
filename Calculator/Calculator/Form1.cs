@@ -97,7 +97,7 @@ namespace Calculator
             switch (count)
             {
                 case 1:
-                    b = a - float.Parse(textBox1.Text);
+                    b = a + float.Parse(textBox1.Text);
                     textBox1.Text = b.ToString();
                     break;
 
